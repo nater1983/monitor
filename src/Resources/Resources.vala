@@ -67,12 +67,6 @@ public class Monitor.Resources : Object {
                     gpu_list.add (gpu);
                     break;
 
-                case Utils.PCI_VENDOR_ID_NVIDIA:
-                    debug ("PCI device: GPU: nVidia %s", name);
-                    IGPU gpu = new GPUNvidia (pci_access, pci_device);
-                    gpu_list.add (gpu);
-                    break;
-
                 case Utils.PCI_VENDOR_ID_AMD:
                     debug ("PCI device: GPU: AMD %s", name);
                     IGPU gpu = new GPUAmd (pci_access, pci_device);

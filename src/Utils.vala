@@ -11,7 +11,6 @@ namespace Monitor.Utils {
     const int PCI_CLASS_3D_CONTROLLER = 0x302;
 
     const uint16 PCI_VENDOR_ID_AMD = 0x1002;
-    const uint16 PCI_VENDOR_ID_NVIDIA = 0x10de;
     const uint16 PCI_VENDOR_ID_INTEL = 0x8086;
 }
 
